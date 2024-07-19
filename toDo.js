@@ -8,7 +8,7 @@ const addToDo = () => {
     const listItem = document.createElement("li");
     listItem.innerHTML = `<div>${ToDo1}</div>
      <button class="btn1" onClick="edit(this)">Edit</button>
-     <button onClick="remove(this)">Dlt</button>`
+     <button class="btn2"onClick="remove(this)">Dlt</button>`
 
 
     ToDoList.appendChild(listItem)

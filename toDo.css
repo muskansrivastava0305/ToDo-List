@@ -29,16 +29,15 @@ main {
 }
 
 .To-Do-List{
-    background-color: rgb(63, 61, 61);
     width: 100%;
     color: aliceblue;
     margin-top: 10px;
     height: 30px;
     border-radius: 10px;
-    border-color: black;
     padding: 10px;
     font-size: 20px ;
     position :relative;
+    margin-top: 20px;
 }
 
  .To-Do-List li button{
@@ -46,20 +45,31 @@ main {
     position: absolute;
     margin-top: 10px;
 } 
+
+li{
+    background-color: rgb(206, 144, 144);
+    height: 30px;
+    margin-top: 15px;
+    
+}
+
 button {
-    padding: 10px;
+    padding: 5px;
 
 }
 
 #btn {
     background-color: chocolate;
-    margin-top: 10px;
+   margin-top: 10px;
 }
 
 .btn1{
     background-color:blanchedalmond;
     margin-right: 50px;
 
+}
+.btn2{
+    background-color: red;
 }
 #dlt {
     padding: 8px;
