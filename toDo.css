@@ -41,12 +41,26 @@ main {
     position :relative;
 }
 
-.To-Do-List li button{
-    right: 20px;
+ .To-Do-List li button{
+    right: 10px;
     position: absolute;
-    align-items: center;
+    margin-top: 10px;
+} 
+button {
+    padding: 10px;
+
 }
 
+#btn {
+    background-color: chocolate;
+    margin-top: 10px;
+}
+
+.btn1{
+    background-color:blanchedalmond;
+    margin-right: 50px;
+
+}
 #dlt {
     padding: 8px;
     background-color: red;
